@@ -1,0 +1,6 @@
+.container-fluid{
+    padding:0;
+    margin:0;
+    background-color: rgb(26, 42, 85);
+    overflow: hidden;
+}

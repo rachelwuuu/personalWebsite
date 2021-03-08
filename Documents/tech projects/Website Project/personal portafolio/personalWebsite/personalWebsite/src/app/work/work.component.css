@@ -1,0 +1,21 @@
+.work{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(55, 56, 56);
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Benne', serif;
+}
+.GO{
+    margin: 50px;
+    background-color: rgb(235, 231, 231);
+    border-radius: 10px;
+    height: 600px;
+    width:500px;
+    padding:20px;
+}
+.GO:hover{
+    filter: drop-shadow(0px 0px 10px white);
+    transition:all 0.9s ease;    
+}

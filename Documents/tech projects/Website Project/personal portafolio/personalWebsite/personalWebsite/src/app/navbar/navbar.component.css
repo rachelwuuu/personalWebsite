@@ -28,9 +28,7 @@
     align-content: center;
     flex-direction: column;
     width:100%;
-    top:40%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    top:30%;
 }
 
 p a{
@@ -51,15 +49,12 @@ p a{
 }
 #github{
     position:absolute;
-    bottom:0;
     display: flex;
-    float:bottom;
-    width:auto;   
-    align-self: bottom;
-    /*justify-content: bottom;
-    text-align: bottom;
-    align-content: bottom;
-    flex-direction: column;*/
+    width:100%;   
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    top:80%;
 }
 #github:hover{
     text-shadow: 0 0 10px white,

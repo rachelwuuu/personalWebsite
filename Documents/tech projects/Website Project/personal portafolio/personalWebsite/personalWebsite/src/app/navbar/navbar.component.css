@@ -52,7 +52,6 @@ p a{
 #github{
     position:absolute;
     bottom:0;
-    background-color: red;
     display: flex;
     float:bottom;
     width:auto;   

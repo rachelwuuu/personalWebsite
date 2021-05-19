@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import {fromEvent} from 'rxjs';
+fromEvent(document.body, 'mousemove').subscribe(e=>{console.log("wow");})
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

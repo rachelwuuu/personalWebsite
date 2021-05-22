@@ -4,9 +4,7 @@ import { Observable, pipe} from 'rxjs';
 import {fromEvent} from 'rxjs';
 fromEvent(document.body, 'mousemove').subscribe(($e)=>{
   
-  //const target=Object.assign(e.lngLat);
-  //const xpos=target.bubbles;
-  //console.log($e.clientX);
+  
 })
 
 

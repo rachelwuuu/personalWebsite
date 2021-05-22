@@ -37,7 +37,7 @@ img{
     display: flex;
     max-width:500px;
     max-height: 750px;
-    margin-left: 140px;
+    margin-left: 3%;
     justify-content: center;
     text-align: center;
     align-content: center;
@@ -104,7 +104,7 @@ a:hover{
     border-color:  rgb(42, 43, 43);
     color:white;
 }
-.right:hover{
+/*.right:hover{
     box-shadow: inset 0px 0px 80px  rgb(240, 228, 192);
     transition:all 0.9s ease;   
-}
+}*/

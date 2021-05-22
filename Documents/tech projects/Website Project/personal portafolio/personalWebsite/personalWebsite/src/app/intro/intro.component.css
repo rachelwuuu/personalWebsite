@@ -2,7 +2,7 @@
 
 .middle{
     height: 100vh;
-    width: 50%;
+    width: 45%;
     color:white;
     float: left;
     background-color: rgb(55, 56, 56);
@@ -27,12 +27,13 @@ img{
     border-radius: 5px;
 }
 .right{
+    position:relative;
     height: 100vh;
     display: flex;
     background-color: rgb(55, 56, 56);
 }
 .resume{
-    margin-top: 8%;
+    margin-top: 15%;
     position: absolute;
     display: flex;
     max-width:500px;
@@ -108,3 +109,11 @@ a:hover{
     box-shadow: inset 0px 0px 80px  rgb(240, 228, 192);
     transition:all 0.9s ease;   
 }*/
+.lamp{
+    box-shadow: inset 0px 0px 80px  rgb(240, 228, 192);
+    position:absolute;
+    height:10%;
+    width:70%;
+    border-radius:5px;
+    background:rgb(173, 136, 94);
+}

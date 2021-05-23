@@ -14,5 +14,5 @@ fromEvent(document.body, 'mousemove').subscribe(($e)=>{
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'personalWebsite';
+  title = 'Rachel Wu';
 }

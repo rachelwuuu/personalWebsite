@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-intro',
   templateUrl: './intro.component.html',
@@ -12,7 +11,7 @@ export class IntroComponent implements OnInit {
       console.log(e.x);
     })
   }
-
+  
   ngOnInit(): void {
   }
 

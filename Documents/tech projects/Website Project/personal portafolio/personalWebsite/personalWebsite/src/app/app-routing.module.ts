@@ -6,11 +6,11 @@ import { WorkComponent } from './work/work.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
-  {path:'intro', component:IntroComponent},
+  {path:'', component:IntroComponent},
   {path:'project',component:ProjectComponent},
   {path:'work',component:WorkComponent},
-  {path:'navbar',component:NavbarComponent}
-
+  {path:'navbar',component:NavbarComponent},
+  {path:'**',component:IntroComponent}
 ];
 
 @NgModule({

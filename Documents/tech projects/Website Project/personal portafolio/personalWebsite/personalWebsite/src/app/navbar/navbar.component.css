@@ -55,7 +55,7 @@ p a{
     text-align: center;
     align-content: center;
     flex-direction: column;
-    top:80%;
+    top:90%;
 }
 #github:hover{
     text-shadow: 0 0 10px white,

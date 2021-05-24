@@ -109,7 +109,7 @@ a:hover{
 /*.right:hover{
     box-shadow: inset 0px 0px 80px  rgb(240, 228, 192);
     transition:all 0.9s ease;   
-}*/
+}
 .dot{background:rgb(165, 162, 162);
     box-shadow: 0px 0px 10px  rgb(99, 97, 97);
     height:30px;
@@ -117,14 +117,14 @@ a:hover{
     width:30px;
     animation-name:movingDot;
     animation-duration:10s;
-    /*animation-iteration-count: infinite;*/
+    animation-iteration-count: infinite;
     position:relative;
 }
 @keyframes movingDot{
     0% {left:0px;top:0px;}
     50%{left:93%;top:50%;}
     100%{left:0px;top:0px;}
-}
+}*/
 
 .lamp{
     box-shadow: inset 0px 0px 80px  rgb(121, 117, 108);

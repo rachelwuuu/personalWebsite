@@ -9,6 +9,23 @@
     font-family: 'Benne', serif;
     
 }
+.dot{background:rgb(228, 198, 142);
+    box-shadow: 0px 0px 10px  rgb(216, 187, 133);
+    height:30px;
+    border-radius:50%;
+    width:30px;
+    animation-name:movingDot;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    position:relative;
+}
+@keyframes movingDot{
+    0% {left:50%;top:0%;}
+    25%{left:97.5%;top:50%;}
+    50%{left:50%;top:95%;}
+    75%{left:0%;top:50%;}
+    100%{left:50%;top:0%;}
+}
 .pieChart{
     position:absolute;
     left:50%;

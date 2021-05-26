@@ -14,7 +14,7 @@
     height:30px;
     border-radius:50%;
     width:30px;
-    animation:movingDot 6s, scale 5s, colorChange 6s;
+    animation:movingDot 6s, scale 5s;
     animation-iteration-count: infinite;
     position:relative;
 }
@@ -27,11 +27,11 @@
 }
 
 @keyframes scale{
-    0%{transform:scale(0.5);background:rgb(230, 211, 176);}
-    25%{transform:scale(0.8);background:rgb(235, 212, 169);}
-    50%{transform:scale(1);background:rgb(228, 198, 142);}
-    75%{transform:scale(0.8);background:rgb(235, 212, 169);}
-    100%{transform:scale(0.5);background:rgb(230, 211, 176);}
+    0%{transform:scale(0.5);background:rgb(230, 211, 176);box-shadow: 0px 0px 3px  rgb(216, 187, 133);}
+    25%{transform:scale(0.8);background:rgb(235, 212, 169);box-shadow: 0px 0px 5px  rgb(216, 187, 133);}
+    50%{transform:scale(1);background:rgb(228, 198, 142);box-shadow: 0px 0px 10px  rgb(216, 187, 133);}
+    75%{transform:scale(0.8);background:rgb(235, 212, 169);box-shadow: 0px 0px 5px  rgb(216, 187, 133);}
+    100%{transform:scale(0.5);background:rgb(230, 211, 176);box-shadow: 0px 0px 3px  rgb(216, 187, 133);}
 }
 .pieChart{
     position:absolute;

@@ -9,12 +9,12 @@
     font-family: 'Benne', serif;
     
 }
-.dot{background:rgb(228, 198, 142);
+.dot{
     box-shadow: 0px 0px 10px  rgb(216, 187, 133);
     height:30px;
     border-radius:50%;
     width:30px;
-    animation:movingDot 6s, scale 5s;
+    animation:movingDot 6s, scale 5s, colorChange 6s;
     animation-iteration-count: infinite;
     position:relative;
 }
@@ -33,7 +33,13 @@
     75%{transform:scale(0.8);}
     100%{transform:scale(0.5);}
 }
-
+@keyframes colorChange{
+    0%{background:rgb(228, 198, 142);}
+    25%{background:rgb(230, 211, 176);}
+    50%{background:white;}
+    75%{background:rgb(230, 211, 176);}
+    100%{background:rgb(228, 198, 142);}
+}
 .pieChart{
     position:absolute;
     left:50%;

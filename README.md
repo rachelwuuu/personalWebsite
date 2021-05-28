@@ -1,2 +1,2 @@
 
-There's a slight shake from work to other pages.
+There's a slight shake on navbar from work to other pages.

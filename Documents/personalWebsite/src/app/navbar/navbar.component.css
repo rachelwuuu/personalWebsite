@@ -6,12 +6,12 @@
 }
 
 .sticky-top{
-    position:sticky;
+    /*position:sticky;*/
     position: -webkit-sticky;
 }
 
 img{
-    width: 40%;
+    width: 30%;
     align-self: center;
 
 }
@@ -38,7 +38,7 @@ p a{
 
 p:hover,a:hover{
     background-color: rgb(82, 88, 86);
-}
+}/*
 #github{
     position:absolute;
     display: flex;
@@ -58,8 +58,8 @@ p:hover,a:hover{
     width: 40px;
     height: 40px;
     margin: auto;
-    /*filter: drop-shadow(0px 0px 10px white);*/
-}
+    filter: drop-shadow(0px 0px 10px white);
+}*/
 .logo-background{
     border-radius: 80px;
     

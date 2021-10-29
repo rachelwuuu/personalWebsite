@@ -10,6 +10,19 @@
     position: -webkit-sticky;
 }
 
+img{
+    width: 40%;
+    align-self: center;
+
+}
+
+.imgHolder{
+    display: flex;
+    width:auto;  
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
 p a{
     display: flex;
     width:auto;  
